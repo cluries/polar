@@ -18,7 +18,7 @@ import (
 	"iusworks.com/p/polar/internal/command/fluence/loader/start"
 )
 
-const name = "Godzilla"
+const name = "Polar"
 
 func main() {
 	commands := []*cli.Command{
