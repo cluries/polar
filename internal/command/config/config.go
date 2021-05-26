@@ -1,3 +1,13 @@
+/*
+ * Project Polar
+ *
+ * http://iusworks.com/project/polar
+ * hongl.gu@iusworks.com
+ *
+ *  Copyright (c)  2021. The Iusworks Network, LLC.  All rights reserved.
+ *
+ */
+
 package config
 
 import "github.com/urfave/cli/v2"
