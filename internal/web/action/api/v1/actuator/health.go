@@ -4,7 +4,7 @@
  * http://iusworks.com/project/polar
  * hongl.gu@iusworks.com
  *
- *  Copyright (c)  2021. The Iusworks Network, LLC.  All rights reserved.
+ * Copyright (c)  2021. The Iusworks Network, LLC.  All rights reserved.
  *
  */
 

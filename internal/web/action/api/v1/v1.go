@@ -5,10 +5,15 @@ import (
 	"iusworks.com/p/fluence/web/action"
 	"iusworks.com/p/fluence/web/middleware"
 	"iusworks.com/p/fluence/web/middleware/limit"
+	"iusworks.com/p/fluence/web/middleware/signature"
 	"iusworks.com/p/fluence/web/route"
 
 	"iusworks.com/p/polar/internal/web/action/api/v1/actuator"
 )
+
+var ipLimitor *limit.Limiter
+var idenLimitor *limit.Limiter
+var signator *signature.Signator
 
 var Route = route.AppRoute{
 	Name:       "apione",
@@ -18,18 +23,12 @@ var Route = route.AppRoute{
 	},
 	Middlewares: []gin.HandlerFunc{
 		middleware.Profile,
-		middleware.Limit(&limit.Config{
-			Cycle:       60,
-			Limit:       60,
-			IdenFetcher: limit.IPIdenFetcher,
-		}),
-		middleware.Signature,
-		middleware.Limit(&limit.Config{
-			Cycle: 60,
-			Limit: 60,
-			IdenFetcher: func(ctx *gin.Context) (string, error) {
-				return "1", nil
-			},
-		}),
+		ipLimitor.Handler,
+		signator.Hander,
+		idenLimitor.Handler,
+	},
+	Initializer: func() {
+		ipLimitor = limit.NewLimitor(nil)
+		idenLimitor = limit.NewLimitor(nil)
 	},
 }
