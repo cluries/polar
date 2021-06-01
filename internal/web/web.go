@@ -18,13 +18,13 @@ import (
 )
 
 func configureFluence(context *cli.Context) {
-	 
+
 }
 
 func Loader(context *cli.Context) {
 	configureFluence(context)
 
-	for _, r := range api.Routes {
+	for _, r := range api.Routes() {
 		route.Add(r)
 	}
 }

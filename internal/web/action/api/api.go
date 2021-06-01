@@ -16,6 +16,8 @@ import (
 	verone "iusworks.com/p/polar/internal/web/action/api/v1"
 )
 
-var Routes = []*route.AppRoute{
-	&verone.Route,
+func Routes() []*route.AppRoute {
+	return []*route.AppRoute{
+		verone.Approute(),
+	}
 }

@@ -1,0 +1,30 @@
+name: Polar
+debug: true
+shutdownDelay: 0
+web:
+  bind: 0.0.0.0
+  port: 8192
+log:
+  level: trace
+  store: logs
+  console: true
+  centralize: true
+datasource:
+  mysql:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: cdanseens
+    database: polar
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 1
+  entity:
+    facade:
+      tablePrefix: "par_"
+  debug:
+    enable: true
+    sql:
+      print: true
+      persist: true
