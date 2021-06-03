@@ -18,6 +18,6 @@ import (
 
 func Routes() []*route.AppRoute {
 	return []*route.AppRoute{
-		verone.Approute(),
+		verone.Approutes(),
 	}
 }

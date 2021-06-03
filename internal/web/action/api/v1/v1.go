@@ -13,14 +13,20 @@ import (
 	"iusworks.com/p/polar/internal/web/action/api/v1/actuator"
 )
 
-func Approute() *route.AppRoute {
+const (
+	PathPrefix = "/api/v1"
+)
+
+// Approutes define routes
+//
+func Approutes() *route.AppRoute {
 	ipLimiter := limit.NewLimiter(nil)
 	idenLimiter := limit.NewLimiter(nil)
 	signator := signature.NewSignator(nil)
 
 	r := route.AppRoute{
-		Name:       "apione",
-		PathPrefix: "/api/v1",
+		Name:       "API.Version.1",
+		PathPrefix: PathPrefix,
 		Actions: [][]action.Action{
 			actuator.Actions,
 		},
@@ -40,6 +46,8 @@ func Approute() *route.AppRoute {
 	return &r
 }
 
+//
+//
 func ipLimiterConfig() *limit.Config {
 	p := config.SharedProperty().Datasource.Redis
 	c := limit.Config{
@@ -56,6 +64,8 @@ func ipLimiterConfig() *limit.Config {
 	return &c
 }
 
+//
+//
 func idenLimiterConfig() *limit.Config {
 	p := config.SharedProperty().Datasource.Redis
 	c := limit.Config{
