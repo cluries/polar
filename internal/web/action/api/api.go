@@ -1,6 +1,9 @@
 /*
  * Project Polar
  *
+ * We leave traces in this world
+ * The times can not erase
+ *
  * http://iusworks.com/project/polar
  * hongl.gu@iusworks.com
  *
