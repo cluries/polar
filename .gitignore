@@ -2,3 +2,11 @@ logs/*
 .DS_Store
 tmp
 buildout
+node_modules/
+miniprogram_npm/
+jspm_packages/
+web_modules/
+*.tsbuildinfo
+.npm
+.eslintcache
+dist

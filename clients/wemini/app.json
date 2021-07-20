@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/history/history",
+    "pages/analyze/analyze",
+    "pages/me/me"
+  ],
+  "entryPagePath": "pages/home/home",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Polar",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#13227a",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "记录",
+        "iconPath": "/assets/icons/records.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "曾经",
+        "iconPath": "/assets/icons/history.png"
+      },
+      {
+        "pagePath": "pages/analyze/analyze",
+        "text": "数据",
+        "iconPath": "/assets/icons/analyze.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "/assets/icons/person.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "darkmode": false,
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "usingComponents": {
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-area": "@vant/weapp/area/index",
+    "van-submit-bar": "@vant/weapp/submit-bar/index",
+    "van-cell": "@vant/weapp/cell/index",
+  "van-cell-group": "@vant/weapp/cell-group/index",
+  "van-collapse": "@vant/weapp/collapse/index",
+  "van-collapse-item": "@vant/weapp/collapse-item/index",
+  "van-notice-bar": "@vant/weapp/notice-bar/index",
+  "van-calendar": "@vant/weapp/calendar/index",
+  "van-checkbox": "@vant/weapp/checkbox/index",
+  "van-checkbox-group": "@vant/weapp/checkbox-group/index",
+  "van-field": "@vant/weapp/field/index"
+
+  }
+}
