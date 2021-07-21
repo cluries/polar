@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: azure;
+}
+
+header {
+    min-height: 128px;
+    background: blanchedalmond;
+}
+
+nav {
+}
+
+nav > ul {
+    background: brown;
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li {
+    color: azure;
+    font-weight: bold;
+}
+
+nav > ul > li > a {
+    color: azure;
+    display: block;
+    padding: 10px;
+}
+
+
+nav > ul > li > a:hover {
+    color: brown;
+    background: azure;
+}
+
+main {
+    background: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    min-height: 1200px;
+}
+
+main > .cri {
+    border: brown 10px solid;
+    color: azure;
+    padding: 50px;
+    background: green;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    margin: 10px;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}

@@ -1,2 +1,88 @@
 /* pages/home/home.wxss */
 
+
+.container {
+  padding: 0;
+  margin: 0; 
+ }
+ 
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+.profile {
+  flex-basis: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: center;
+}
+
+.profile .avatar {
+  text-align: center;
+  overflow: hidden;
+  width: 64px;
+  height:64px;
+  margin: 0;
+  border-radius: 50%;
+  border: #595A4A 1px solid;
+}
+
+.profile .name {
+  text-align: center;
+  color: #363635;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.info {
+  flex-basis: 50%;
+  font-weight: normal;
+  font-size: 14px;
+  color:#ff8585;
+}
+
+.state {
+  flex-basis: 25%;
+}
+
+.progress {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+ 
+.main {
+  display: flex;
+  background-color: coral;
+  width: 100%;
+}
+
+.main .create {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  background-color: #ffb059;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: #13227A 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  height: 64px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

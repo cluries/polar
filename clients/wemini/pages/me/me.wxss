@@ -1,1 +1,16 @@
 /* pages/me/me.wxss */
+
+.banner {
+  height: 32px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.avatar {
+  height: 64px;
+  width:64px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+ 

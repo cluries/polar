@@ -1,2 +1,15 @@
 <!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<view>
+  <view class="banner">
+  </view>
+
+<van-cell-group border="{{ false }}">
+  <van-cell title="头像" size="large" center>
+    <view class="avatar" slot="right-icon"><open-data type="userAvatarUrl"></open-data></view>
+  </van-cell>
+  <van-cell title="昵称" value="内容" size="large" center />
+  <van-cell title="出生日期"  label="中国农历"  value="内容" size="large" center />
+  <van-cell title="标签" value="25个" size="large" center is-link />
+</van-cell-group>
+
+</view>
