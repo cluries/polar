@@ -4,12 +4,21 @@
   </view>
 
 <van-cell-group border="{{ false }}">
-  <van-cell title="头像" size="large" center>
+  <van-cell title="头像" size="large" center title-class="celltitle">
     <view class="avatar" slot="right-icon"><open-data type="userAvatarUrl"></open-data></view>
   </van-cell>
-  <van-cell title="昵称" value="内容" size="large" center />
-  <van-cell title="出生日期"  label="中国农历"  value="内容" size="large" center />
-  <van-cell title="标签" value="25个" size="large" center is-link />
+  <van-cell title="昵称" size="large" center title-class="celltitle">
+    <view>
+      <open-data type="userNickName"></open-data>
+    </view>
+  </van-cell>
+  <van-cell title="生日" value="1987-05-04" size="large" center title-class="celltitle">
+    <view slot="right-icon">
+      <van-tag type="danger" round>农历</van-tag>
+    </view>
+  </van-cell>
+  <van-cell title="标签" value="25个" size="large" center is-link title-class="celltitle"/>
+  <van-cell title="设置" value="" size="large" center is-link title-class="celltitle"/>
 </van-cell-group>
 
 </view>

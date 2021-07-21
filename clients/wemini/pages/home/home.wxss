@@ -15,6 +15,11 @@
   align-content: flex-start;
 }
 
+.header  .progress {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
 .profile {
   flex-basis: 25%;
   display: flex;
@@ -47,18 +52,21 @@
   flex-basis: 50%;
   font-weight: normal;
   font-size: 14px;
+  display: flex;
+  
   color:#ff8585;
+}
+
+.info .item {
+  padding: 5px;
+  flex-basis: 33%;
 }
 
 .state {
   flex-basis: 25%;
 }
 
-.progress {
-  flex-grow: 1;
-  flex-basis: 100%;
-}
- 
+
 .main {
   display: flex;
   background-color: coral;

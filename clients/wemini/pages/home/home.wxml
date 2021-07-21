@@ -1,5 +1,6 @@
 <view class="container">
    <view class="header"> 
+    
     <view class="profile">
       <view class="avatar">
         <view class="avatarin">
@@ -11,19 +12,26 @@
       </view>
     </view>
     <view class="info">
-      <view><van-icon name="fire-o" color="red"/> 34岁</view>
-      <view><van-icon name="underway-o" color="red"/> 兔</view>
-      <view><van-icon name="flower-o" color="red"/> 金牛座</view>
+      <view class="item">34</view>
+      <view class="item">兔</view>
+      <view class="item">金牛</view>
     </view>
     <view class="state">
      
     </view>
     
     <view class="progress">
-      <van-progress percentage="90" color="linear-gradient(to right, #be99ff, #4af2a1)" show-pivot="{{false}}" />
+      <van-progress percentage="50" color="linear-gradient(to right, #be99ff, #4af2a1)" show-pivot="{{false}}" />
     </view>
 
-    <view>
+    <view class="">
+
+    </view>
+    <view class="">
+
+    </view>
+    <view class="">
+
     </view>
   </view>
   
@@ -31,6 +39,10 @@
     <button class="create">
       <van-icon name="plus" color="#FFF" size="24px"/>
     </button>
+
+    <view>
+      
+    </view>
   </view>
   <view class="footer"></view>
 </view>
