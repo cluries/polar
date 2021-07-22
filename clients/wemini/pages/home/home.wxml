@@ -12,31 +12,31 @@
       </view>
     </view>
     <view class="info">
-      <view class="item">34</view>
-      <view class="item">兔</view>
-      <view class="item">金牛</view>
+        
     </view>
     <view class="state">
      
     </view>
     
     <view class="progress">
-      <van-progress percentage="50" pivot-text="5000天" />
+      <van-progress percentage="50"  show-pivot="{{false}}"/>
     </view>
     <view class="opera">
       <view class="one">
-         <h3>金钱</h3>
+         <h3>34岁</h3>
       </view>
       <view class="one">
-        <h3>标签</h3>
+        <h3>兔</h3>
       </view>
       <view class="one">
-        <h3>事件</h3>
+        <h3>金牛座</h3>
       </view> 
     </view>
+     
   </view>
   
   <view class="main">
+    
     <button class="create">
       <van-icon name="plus" color="#FFF" size="24px"/>
     </button>
