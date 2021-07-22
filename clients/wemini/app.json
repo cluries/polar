@@ -8,9 +8,10 @@
   "entryPagePath": "pages/home/home",
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Polar",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#4af2a1",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#4af2a1"
   },
   "tabBar": {
     "color": "#fff",
@@ -75,6 +76,7 @@
     "van-checkbox": "@vant/weapp/checkbox/index",
     "van-checkbox-group": "@vant/weapp/checkbox-group/index",
     "van-field": "@vant/weapp/field/index",
-    "van-tag": "@vant/weapp/tag/index"
+    "van-tag": "@vant/weapp/tag/index",
+    "van-skeleton": "@vant/weapp/skeleton/index"
   }
 }

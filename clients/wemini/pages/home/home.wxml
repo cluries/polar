@@ -21,17 +21,18 @@
     </view>
     
     <view class="progress">
-      <van-progress percentage="50" color="linear-gradient(to right, #be99ff, #4af2a1)" show-pivot="{{false}}" />
+      <van-progress percentage="50" pivot-text="5000天" />
     </view>
-
-    <view class="">
-
-    </view>
-    <view class="">
-
-    </view>
-    <view class="">
-
+    <view class="opera">
+      <view class="one">
+         <h3>金钱</h3>
+      </view>
+      <view class="one">
+        <h3>标签</h3>
+      </view>
+      <view class="one">
+        <h3>事件</h3>
+      </view> 
     </view>
   </view>
   
@@ -40,8 +41,16 @@
       <van-icon name="plus" color="#FFF" size="24px"/>
     </button>
 
-    <view>
+    <view class="steps">
+      <view class="one">
       
+      </view>
+      <view class="one">
+      
+      </view>
+      <view class="one"></view>
+      <view class="one"></view>
+      <view class="one"></view>
     </view>
   </view>
   <view class="footer"></view>
