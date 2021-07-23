@@ -57,12 +57,16 @@
   font-weight: normal;
   font-size: 14px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   color:#555555;
 }
 
 .header .info .item {
   padding: 5px;
-  flex-basis: 33%;
+  /* flex-basis: 33%; */
+  height: 20px;
+  flex-grow: 0;
 }
 
 .header .state {
@@ -73,18 +77,18 @@
   flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
   align-content: flex-start;
-  padding: 10px 0;
+  padding: 10px ;
 }
 
 .header .opera .one {
   flex-basis: 32%;
-  height: 100px;
-  /* border: #fff 1px solid; */
+  border: #ff8585 1px solid;
   border-radius: 5px;
   overflow: hidden;
+  font-size: 14px;
 }
 
 .header .opera .one h3 {
@@ -92,11 +96,24 @@
   font-size: 12px;
   display: block;
   padding: 3px 10px;
-  text-align: center;
-  background-color: #595A4A;
+  /* text-align: center; */
+  background-color: #ff8585;
 }
 
+.header .opera .one .content {
+  text-align: center;
+}
  
+.header .opera .one .content .primary {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.header .opera .one .content .second {
+  font-weight: normal;
+  padding: 0 5px 5px 5px;
+  text-align: left;
+}
  
 
 .main {
