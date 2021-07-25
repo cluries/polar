@@ -10,9 +10,9 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-content: flex-end;
   align-items: stretch;
-  align-content: flex-start;
   background-color: #4af2a1;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -22,16 +22,15 @@
 .header  .progress {
   flex-grow: 1;
   flex-basis: 100%;
+  margin-top: 5px;
 }
 
 .header  .profile {
-  flex-basis: 25%;
+  flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  align-content: flex-start;
-  text-align: center;
+  align-items:flex-start;
+  justify-content: flex-start;
 }
 
 .header .profile .avatar {
@@ -39,40 +38,29 @@
   overflow: hidden;
   width: 64px;
   height:64px;
-  margin: 0;
+  margin: 0 0 0 15px;
   border-radius: 50%;
   border: #595A4A 1px solid;
 }
-
-.header .profile .name {
-  text-align: center;
-  color: #363635;
-  font-weight: bold;
-  font-size: 14px;
-  padding: 5px;
+.header .profile .info {
+  text-align: left;
+  margin-left: 10px;
 }
 
-.header .info {
-  flex-basis: 65%;
+.header .profile .info .name {
+  color: #363635;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0;
+}
+
+.header  .profile  .info  .slogen {
   font-weight: normal;
   font-size: 14px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
   color:#555555;
 }
-
-.header .info .item {
-  padding: 5px;
-  /* flex-basis: 33%; */
-  height: 20px;
-  flex-grow: 0;
-}
-
-.header .state {
-  flex-basis: 10%;
-}
-
+ 
 .header .opera {
   flex-basis: 100%;
   display: flex;
