@@ -7,16 +7,16 @@
   ],
   "entryPagePath": "pages/home/home",
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#4af2a1",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#99de9f",
     "navigationBarTitleText": "",
     "navigationBarTextStyle": "black",
-    "backgroundColor": "#4af2a1"
+    "backgroundColor": "#99de9f"
   },
   "tabBar": {
-    "color": "#fff",
-    "selectedColor": "#13227A",
-    "backgroundColor": "#ffb059",
+    "color": "#b4bcbd",
+    "selectedColor": "#000639",
+    "backgroundColor": "#f5f8fd",
     "list": [
       {
         "pagePath": "pages/home/home",

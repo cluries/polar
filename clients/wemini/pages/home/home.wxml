@@ -1,7 +1,8 @@
 <view class="container">
    <view class="header"> 
-    
-    <view class="profile">
+
+    <view class="headertop">
+      <view class="profile">
       <view class="avatar">
         <view class="avatarin">
           <open-data type="userAvatarUrl"></open-data>
@@ -16,12 +17,13 @@
       </view>
      </view>
     </view>
-     
-    
     <view class="progress">
-      <van-progress percentage="50"  show-pivot="{{false}}"/>
+      <van-progress percentage="50"  show-pivot="{{false}}" color="#ffB850"/>
     </view>
-    <view class="opera">
+    
+  </view>
+  <view class="fixeds">
+    <view class="container">
       <view class="one">
         <h3>2021年/辛丑年</h3>
         <view class="content">
@@ -58,9 +60,15 @@
             </view>
          </view>
       </view>
-      
     </view>
-     
+  </view>
+  
+  <view class="opera">
+      吊顶    
+  </view>
+    <view class="rund">
+    <view class="container"></view>
+    </view>
   </view>
   
   <view class="main">
@@ -70,15 +78,17 @@
     </button>
 
     <view class="steps">
-      <view class="one">
-      
+      <view class="sectiontitle">
+        <h3>Recents</h3>
       </view>
-      <view class="one">
-      
+      <view class="container">
+        <view class="one"></view>
+        <view class="one"></view>
+        <view class="one"></view>
+        <view class="one"></view>
+        <view class="one"></view>
+        <view class="one"></view>
       </view>
-      <view class="one"></view>
-      <view class="one"></view>
-      <view class="one"></view>
     </view>
   </view>
   <view class="footer"></view>
