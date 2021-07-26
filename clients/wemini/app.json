@@ -8,15 +8,15 @@
   "entryPagePath": "pages/home/home",
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#99de9f",
+    "navigationBarBackgroundColor": "#D1E7FE",
     "navigationBarTitleText": "",
     "navigationBarTextStyle": "black",
-    "backgroundColor": "#99de9f"
+    "backgroundColor": "#D1E7FE"
   },
   "tabBar": {
-    "color": "#b4bcbd",
-    "selectedColor": "#000639",
-    "backgroundColor": "#f5f8fd",
+    "color": "#777",
+    "selectedColor": "#070726",
+    "backgroundColor": "#fdfdfd",
     "list": [
       {
         "pagePath": "pages/home/home",

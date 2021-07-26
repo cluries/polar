@@ -13,11 +13,11 @@
   justify-content: flex-start;
   align-content: flex-end;
   align-items: stretch;
-  background-color: #f5f8fd;  
+  background-color: #D1E7FE;  
 }
 
 .header .headertop {
-  background-color: #99de9f;
+  background-color: #D1E7FE;
   flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -26,11 +26,6 @@
   align-items: stretch;
 }
 
-.header  .headertop .progress {
-  flex-grow: 1;
-  flex-basis: 100%;
-  margin-top: 5px;
-}
 
 .header  .headertop .profile {
   flex-basis: 100%;
@@ -47,7 +42,7 @@
   height:64px;
   margin: 0 0 0 15px;
   border-radius: 50%;
-  border: #F76360 1px solid;
+  border: #C4D0FB 3px solid;
 }
 
 .header  .headertop .profile .info {
@@ -69,13 +64,19 @@
   color:#F76360;
 }
 
+.header  .headertop .progress {
+  flex-grow: 1;
+  flex-basis: 100%;
+  margin-top: 10px;
+}
+
 .header .fixeds {
   flex-basis: 100%;
-  background-color: #f5f8fd;
+  background-color: #c4d0fb;
 }
 
 .header .fixeds .container {
-  padding:10px 10px 15px 10px;
+  padding:15px 10px 20px 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -84,12 +85,12 @@
   align-items: stretch;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #99de9f;
+  background-color: #D1E7FE;
 }
 
 .header .fixeds .container .one {
   flex-basis: 32%;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
   font-size: 14px;
   background: #fff;
@@ -97,11 +98,12 @@
 }
 
 .header .fixeds .container .one h3 {
-  font-size: 12px;
+  font-size: 14px;
   display: block;
-  padding: 3px 10px;
+  font-weight: bold;
+  padding: 5px 10px;
   color:#000639;
-  background-color: #f5f8fd;
+  background-color: #F3D9FF;
 }
 
 .header .fixeds .container .one .content {
@@ -118,10 +120,11 @@
   font-weight: normal;
   padding: 0 5px 5px 5px;
   text-align: left;
+  color: #374f86;
 }
 
 .header .opera {
-  background-color: #f5f8fd;
+  background-color: #c4d0fb;
   flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -138,7 +141,7 @@
 
 .header .rund .container {
   height: 15px;
-  background: #f5f8fd;
+  background: #c4d0fb;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -158,7 +161,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: #13227A 5px solid;
+  border: #070726 5px solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,6 +184,7 @@
   margin-top: 10px;
   padding: 10px;
   padding-bottom: 0;
+  color: #070726;
 }
 
 .main .steps .container{
@@ -193,8 +197,8 @@
   border-radius: 10px;
   width: 100%;
   margin: 10px 0; 
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #f5f8fd 100%);
-  box-shadow: 2px 2px 20px  #ccc;
+  background-image: linear-gradient(90deg, #ffffff 0%, #D1E7FE 100%);
+  box-shadow: 2px 2px 20px  #D1E7FE;
 }
 
 .footer {
