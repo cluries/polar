@@ -128,10 +128,16 @@
   flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
-  align-content: flex-start;
   padding: 15px 15px 0 15px;
+}
+
+.header .opera  .one{
+  /* border-bottom: #070726 2px solid; */
+  text-align: center;
+  /* background-color: #070726; */
+  font-size: 14px; 
 }
 
 .header .rund {
