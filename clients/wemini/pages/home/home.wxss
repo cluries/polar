@@ -6,6 +6,8 @@
   margin: 0; 
  }
  
+ 
+
 .header {
   width: 100%;
   display: flex;
@@ -13,6 +15,7 @@
   justify-content: flex-start;
   align-content: flex-end;
   align-items: stretch;
+  flex-direction: row;
   background-color: #D1E7FE;  
 }
 
@@ -21,14 +24,13 @@
   flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-end;
-  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
 }
 
 
 .header  .headertop .profile {
-  flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items:flex-start;
@@ -48,6 +50,8 @@
 .header  .headertop .profile .info {
   text-align: left;
   margin-left: 10px;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .header .headertop .profile .info .name {
@@ -64,7 +68,28 @@
   color:#F76360;
 }
 
-.header  .headertop .progress {
+.header .headertop .lucky{
+  font-size: 14px;
+  margin: 15px ;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background: #ffb059; */
+  height: 48px;
+ }
+
+ .header .headertop .lucky .title {
+   flex-basis: 100%;
+   /* background-color: #cccccc; */
+   padding: 0;
+   margin: 0;
+ }
+
+.header .progress {
   flex-grow: 1;
   flex-basis: 100%;
   margin-top: 10px;
@@ -80,7 +105,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: flex-start;
   align-items: stretch;
   border-bottom-left-radius: 20px;
@@ -89,7 +114,7 @@
 }
 
 .header .fixeds .container .one {
-  flex-basis: 32%;
+  flex-basis: 45%;
   border-radius: 10px;
   overflow: hidden;
   font-size: 14px;
@@ -198,19 +223,52 @@
 }
 
 .main .steps .one {
-  min-height: 96px;
   overflow: hidden;
   border-radius: 10px;
   width: 100%;
   margin: 10px 0; 
   background-image: linear-gradient(90deg, #ffffff 0%, #D1E7FE 100%);
   box-shadow: 2px 2px 20px  #D1E7FE;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.main .steps .one .kind {
+  padding: 20px 10px;
+}
+
+.main .steps .one .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.main .steps .one .container .title {
+  font-weight: bold;
+  flex-basis: 100%;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+
+.main .steps .one .container .meta {
+  font-weight: normal;
+  color: #7996ac;
+  /* background: #C4D0FB; */
+  flex-basis: 100%;
+
+  /* padding: 10px 0; */
 }
 
 .footer {
-  position: fixed;
-  height: 64px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  padding: 30px 0px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  color: #7996ac;
 }

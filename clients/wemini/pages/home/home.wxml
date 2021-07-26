@@ -3,25 +3,30 @@
 
     <view class="headertop">
       <view class="profile">
-      <view class="avatar">
-        <view class="avatarin">
-          <open-data type="userAvatarUrl"></open-data>
+        <view class="avatar">
+          <view class="avatarin">
+            <open-data type="userAvatarUrl"></open-data>
+          </view>
+        </view>
+      <view class="info">
+        <view class="name">
+          <open-data type="userNickName"></open-data>
+        </view>
+        <view class="slogen">
+          欢迎你来到这个世界
         </view>
       </view>
-     <view class="info">
-      <view class="name">
-        <open-data type="userNickName"></open-data>
-      </view>
-      <view class="slogen">
-      欢迎你来到这个世界
-      </view>
-     </view>
     </view>
-    <view class="progress">
-      <van-progress percentage="50"  show-pivot="{{false}}" color="#c4d0fb"/>
+    <view class="lucky">
+      <van-icon name="/assets/page/home/lucky.png" size="28"></van-icon>
+      <view class="title">运势</view>
     </view>
+   
     
   </view>
+  <view class="progress">
+      <van-progress percentage="50"  show-pivot="{{false}}" color="#c4d0fb"/>
+    </view>
   <view class="fixeds">
     <view class="container">
       <view class="one">
@@ -48,7 +53,7 @@
             </view>
          </view>
       </view>
-      <view class="one">
+      <!-- <view class="one">
          <h3>金牛</h3>
          <view class="content">
             <view class="primary">
@@ -59,13 +64,13 @@
               <view>工作77 财运76</view>
             </view>
          </view>
-      </view>
+      </view> -->
     </view>
   </view>
   
   <view class="opera">
     <view class="one">
-      <van-icon name="/assets/page/home/happy.png" size="32"></van-icon> <!--心情-->
+      <van-icon name="/assets/page/home/happy.png" size="32" info="10"></van-icon> <!--心情-->
       <view class="name">心情</view>
     </view>
     <view class="one">
@@ -89,24 +94,89 @@
   </view>
   
   <view class="main">
-    
     <button class="create">
       <van-icon name="plus" color="#FFF" size="24px"/>
     </button>
-
     <view class="steps">
       <view class="sectiontitle">
         <h3>今天</h3>
       </view>
       <view class="container">
-        <view class="one"></view>
-        <view class="one"></view>
-        <view class="one"></view>
-        <view class="one"></view>
-        <view class="one"></view>
-        <view class="one"></view>
+        <view class="one">
+          <view class="kind">
+            <van-icon name="/assets/page/home/experience.png" size="48"></van-icon>
+          </view>
+          <view class="container">
+            <view class="title">
+            我想到了一个新发明
+            </view>
+            <view class="meta">
+            12点04分
+            </view>
+          </view>
+        </view>
+
+
+        <view class="one">
+          <view class="kind">
+            <van-icon name="/assets/page/home/happy.png" size="48"></van-icon>
+          </view>
+          <view class="container">
+            <view class="title">
+            哈哈，股市亏了200万。不过是金芭比未必,万幸万幸。
+            </view>
+            <view class="meta">
+            13点51分
+            </view>
+          </view>
+        </view>
+
+        <view class="one">
+          <view class="kind">
+            <van-icon name="/assets/page/home/events.png" size="48"></van-icon>
+          </view>
+          <view class="container">
+            <view class="title">
+            走路的时候不小心摔了一下
+            </view>
+            <view class="meta">
+            16点53分
+            </view>
+          </view>
+        </view>
+
+        <view class="one">
+          <view class="kind">
+            <van-icon name="/assets/page/home/money.png" size="48"></van-icon>
+          </view>
+          <view class="container">
+            <view class="title">
+              走路都能捡到钱
+            </view>
+            <view class="meta">
+            21点11分
+            </view>
+          </view>
+        </view>
+
+        <view class="one">
+          <view class="kind">
+            <van-icon name="/assets/page/home/experience.png" size="48"></van-icon>
+          </view>
+          <view class="container">
+            <view class="title">
+            人生如戏，戏如人生。
+            </view>
+            <view class="meta">
+            22点36分
+            </view>
+          </view>
+        </view>
+         
       </view>
     </view>
   </view>
-  <view class="footer"></view>
+  <view class="footer">
+    <text>Copyright 2021 iusworks.inc</text>
+  </view>
 </view>
