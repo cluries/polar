@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/create/create.js
 Page({
 
   /**
@@ -62,14 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  mixins: [],
-
-  //start
-  createPolar: function(event){
-      wx.navigateTo({
-        url: '/pages/create/create',
-      })
   }
 })

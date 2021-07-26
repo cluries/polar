@@ -154,15 +154,32 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: stretch;
+  align-items:center;
+  align-content: center;
   padding: 15px 15px 0 15px;
 }
 
+.header .opera > button::after {
+  border: none;
+  outline:none;
+}
+
 .header .opera  .one{
-  /* border-bottom: #070726 2px solid; */
   text-align: center;
-  /* background-color: #070726; */
   font-size: 14px; 
+  background: #c4d0fb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header .opera  .one .name {
+  flex-basis: 100%;
+  
 }
 
 .header .rund {

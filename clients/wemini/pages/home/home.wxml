@@ -69,23 +69,22 @@
   </view>
   
   <view class="opera">
-    <view class="one">
-      <van-icon name="/assets/page/home/happy.png" size="32" info="10"></van-icon> <!--心情-->
+    <button class="one" bindtap="createPolar">
+      <van-icon name="/assets/page/home/happy.png" size="32"></van-icon> <!--心情-->
       <view class="name">心情</view>
-    </view>
-    <view class="one">
+    </button>
+    <button class="one" bindtap="createPolar">
       <van-icon name="/assets/page/home/events.png" size="32"></van-icon><!--事件-->
       <view class="name">事件</view>
-    </view>
-    <view class="one">
+    </button>
+    <button class="one" bindtap="createPolar">
       <van-icon name="/assets/page/home/money.png" size="32"></van-icon><!--花费-->
       <view class="name">花费</view>
-    </view>
-    <view class="one">
+    </button>
+    <button class="one" bindtap="createPolar">
       <van-icon name="/assets/page/home/experience.png" size="32"></van-icon><!--感悟-->
       <view class="name">感悟</view>
-    </view>
-   
+    </button>
   </view>
   <view class="rund">
       <view class="container"></view>
@@ -94,7 +93,7 @@
   </view>
   
   <view class="main">
-    <button class="create">
+    <button class="create" bindtap="createPolar">
       <van-icon name="plus" color="#FFF" size="24px"/>
     </button>
     <view class="steps">

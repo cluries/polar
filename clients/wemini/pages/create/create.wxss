@@ -1,0 +1,47 @@
+/* pages/create/create.wxss */
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  background: #D1E7FE;
+}
+
+
+.container .templates {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  align-content: space-around;
+}
+
+.container .templates > button::after {
+  border: none;
+  outline: none;
+}
+
+.container .templates > button {
+  background: #D1E7FE;
+}
+
+
+.container .templates .one {
+  text-align: center;
+  font-size: 14px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container .templates  .one .name {
+  flex-basis: 100%;
+  
+}

@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/history/history",
     "pages/analyze/analyze",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/create/create"
   ],
   "entryPagePath": "pages/home/home",
   "window": {

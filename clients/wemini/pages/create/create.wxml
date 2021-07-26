@@ -1,0 +1,23 @@
+<!--pages/create/create.wxml-->
+<view class="container">
+
+ <view class="templates">
+    <button class="one" bindtap="createPolar">
+      <van-icon name="/assets/page/home/happy.png" size="28"></van-icon> <!--心情-->
+      <view class="name">心情</view>
+    </button>
+    <button class="one" bindtap="createPolar">
+      <van-icon name="/assets/page/home/events.png" size="28"></van-icon><!--事件-->
+      <view class="name">事件</view>
+    </button>
+    <button class="one" bindtap="createPolar">
+      <van-icon name="/assets/page/home/money.png" size="28"></van-icon><!--花费-->
+      <view class="name">花费</view>
+    </button>
+    <button class="one" bindtap="createPolar">
+      <van-icon name="/assets/page/home/experience.png" size="28"></van-icon><!--感悟-->
+      <view class="name">感悟</view>
+    </button>
+ </view> 
+
+</view>
