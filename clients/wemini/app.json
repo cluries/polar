@@ -6,7 +6,7 @@
     "pages/me/me",
     "pages/create/create"
   ],
-  "entryPagePath": "pages/home/home",
+  "entryPagePath": "pages/create/create",
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#D1E7FE",

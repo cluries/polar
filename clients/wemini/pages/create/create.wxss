@@ -3,35 +3,42 @@
 .container {
   margin: 0;
   padding: 0;
-  width: 100%;
   display: flex;
   flex-wrap: wrap; 
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
   background: #D1E7FE;
 }
 
+.container .topoper  {
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
-.container .templates {
-  flex-basis: 100%;
+
+
+.container .topoper .templates {
+  margin: 15px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items:center;
-  align-content: space-around;
+  align-items: flex-start;
 }
 
-.container .templates > button::after {
+.container .topoper .templates > button::after {
   border: none;
   outline: none;
 }
 
-.container .templates > button {
+.container .topoper  .templates > button {
   background: #D1E7FE;
+  border-radius: 0;
 }
 
-
-.container .templates .one {
+.container .topoper  .templates .one {
   text-align: center;
-  font-size: 14px; 
+  font-size: 12px; 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -39,9 +46,37 @@
   align-content: center;
   padding: 0;
   margin: 0;
+  width: 52px;
 }
 
-.container .templates  .one .name {
+.container .topoper .templates  .one .name {
   flex-basis: 100%;
-  
+}
+
+.container .topoper .spliter {
+  border-bottom: #bbbbbb 3px solid;
+  height: 1px;
+  margin: 10px 20px;
+  box-shadow: 2px 2px 20px  #070726;
+
+}
+ 
+
+.container  .main  {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container .main .createform {
+  flex-basis: 100%;
+  background: #ffffff;
+  margin: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+ }
+
+.container  .main  .createform .item {
+  flex-basis: 100%;
 }

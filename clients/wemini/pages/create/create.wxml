@@ -1,23 +1,90 @@
 <!--pages/create/create.wxml-->
 <view class="container">
 
- <view class="templates">
+ <view class="topoper">
+  <view class="templates">
     <button class="one" bindtap="createPolar">
-      <van-icon name="/assets/page/home/happy.png" size="28"></van-icon> <!--心情-->
+      <van-icon name="/assets/page/home/happy.png" size="24"></van-icon> <!--心情-->
       <view class="name">心情</view>
     </button>
     <button class="one" bindtap="createPolar">
-      <van-icon name="/assets/page/home/events.png" size="28"></van-icon><!--事件-->
+      <van-icon name="/assets/page/home/events.png" size="24"></van-icon><!--事件-->
       <view class="name">事件</view>
     </button>
     <button class="one" bindtap="createPolar">
-      <van-icon name="/assets/page/home/money.png" size="28"></van-icon><!--花费-->
+      <van-icon name="/assets/page/home/money.png" size="24"></van-icon><!--花费-->
       <view class="name">花费</view>
     </button>
     <button class="one" bindtap="createPolar">
-      <van-icon name="/assets/page/home/experience.png" size="28"></van-icon><!--感悟-->
+      <van-icon name="/assets/page/home/experience.png" size="24"></van-icon><!--感悟-->
       <view class="name">感悟</view>
     </button>
- </view> 
+    <button class="one" bindtap="createPolar">
+      <van-icon name="/assets/page/home/happy.png" size="24"></van-icon> <!--心情-->
+      <view class="name">心情</view>
+    </button>
+    <button class="one" bindtap="createPolar">
+      <van-icon name="/assets/page/home/events.png" size="24"></van-icon><!--事件-->
+      <view class="name">事件</view>
+    </button>
+    <button class="one" bindtap="createPolar">
+      <van-icon name="/assets/page/home/money.png" size="24"></van-icon><!--花费-->
+      <view class="name">花费</view>
+    </button>
+     
+    <button class="one">
+      <van-icon name="add-o" size="24" color="green"></van-icon> 
+      <view class="name" style="color:green !important">新增模板</view>
+    </button>
+  </view> 
+  <view class="spliter">
+  </view>
+ </view>
+
+
+<view class="main">
+
+  <view class="createform">
+  <van-cell-group>
+    <van-field
+    value="{{ username }}"
+    required
+    clearable
+    label="用户名"
+    icon="question-o"
+    placeholder="请输入用户名" 
+  />
+
+  <van-field
+    value="{{ username }}"
+    required
+    clearable
+    label="用户名"
+    icon="question-o"
+    placeholder="请输入用户名" 
+  />
+
+  <van-field
+    value="{{ username }}"
+    required
+    clearable
+    label="用户名"
+    icon="question-o"
+    placeholder="请输入用户名" 
+  />
+
+  <van-field
+    value="{{ username }}"
+    required
+    clearable
+    label="用户名"
+    icon="question-o"
+    placeholder="请输入用户名" 
+  />
+  </van-cell-group>
+     
+  </view>
+</view>
+ 
 
 </view>

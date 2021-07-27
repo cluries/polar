@@ -199,8 +199,6 @@
   background: #FFF;
 }
 
-
-
 .main .create {
   position: fixed;
   bottom: 25px;
