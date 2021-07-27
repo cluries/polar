@@ -8,22 +8,24 @@
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
-  background: #D1E7FE;
 }
 
 .container .topoper  {
+  background: #D1E7FE;
   justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
 }
 
 
 
 .container .topoper .templates {
-  margin: 15px 10px;
+  margin: 15px 10px 0 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  
 }
 
 .container .topoper .templates > button::after {
@@ -53,30 +55,69 @@
   flex-basis: 100%;
 }
 
-.container .topoper .spliter {
-  border-bottom: #bbbbbb 3px solid;
-  height: 1px;
-  margin: 10px 20px;
-  box-shadow: 2px 2px 20px  #070726;
 
+.container .rund {
+  flex-basis: 100%;
+  width: 100%;
+  background-color: #FFF;
 }
+
+.container .rund .container {
+  height: 15px;
+  background: #D1E7FE;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+} 
  
 
 .container  .main  {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
 }
+.container  .main .use {
+  width: 100%;
+  flex-basis: 100%;
+  margin: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
+.container  .main .use .name {
+  margin-left: 10px;
+}
 .container .main .createform {
   flex-basis: 100%;
   background: #ffffff;
-  margin: 15px;
   overflow: hidden;
   border-radius: 10px;
  }
 
 .container  .main  .createform .item {
   flex-basis: 100%;
+}
+
+.container .but {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 72px;
+  background: #eecefd;
+}
+
+.container .but > button {
+  background: #eecefd;
+  color: #070726;
+  border-top: #ccc 1px solid;
+}
+
+.container .but > button::after {
+  border: none;
+  outline: none;
 }

@@ -22,15 +22,7 @@
     <button class="one" bindtap="createPolar">
       <van-icon name="/assets/page/home/happy.png" size="24"></van-icon> <!--心情-->
       <view class="name">心情</view>
-    </button>
-    <button class="one" bindtap="createPolar">
-      <van-icon name="/assets/page/home/events.png" size="24"></van-icon><!--事件-->
-      <view class="name">事件</view>
-    </button>
-    <button class="one" bindtap="createPolar">
-      <van-icon name="/assets/page/home/money.png" size="24"></van-icon><!--花费-->
-      <view class="name">花费</view>
-    </button>
+    </button> 
      
     <button class="one">
       <van-icon name="add-o" size="24" color="green"></van-icon> 
@@ -40,51 +32,33 @@
   <view class="spliter">
   </view>
  </view>
-
+<view class="rund">
+<view class="container"></view>
+</view>
 
 <view class="main">
-
+  <view class="use">
+    <van-icon name="/assets/page/home/happy.png" size="32"></van-icon> 
+    <view class="name">心情</view>
+  </view>
   <view class="createform">
   <van-cell-group>
-    <van-field
-    value="{{ username }}"
-    required
-    clearable
-    label="用户名"
-    icon="question-o"
-    placeholder="请输入用户名" 
-  />
-
-  <van-field
-    value="{{ username }}"
-    required
-    clearable
-    label="用户名"
-    icon="question-o"
-    placeholder="请输入用户名" 
-  />
-
-  <van-field
-    value="{{ username }}"
-    required
-    clearable
-    label="用户名"
-    icon="question-o"
-    placeholder="请输入用户名" 
-  />
-
-  <van-field
-    value="{{ username }}"
-    required
-    clearable
-    label="用户名"
-    icon="question-o"
-    placeholder="请输入用户名" 
-  />
+    <van-field size="large" value="{{ username }}" required clearable
+    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/>
+    <van-field size="large" value="{{ username }}" required clearable
+    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/><van-field size="large" value="{{ username }}" required clearable
+    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/><van-field size="large" value="{{ username }}" required clearable
+    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/><van-field size="large" value="{{ username }}" required clearable
+    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/>
+   
   </van-cell-group>
      
   </view>
 </view>
  
+
+<view class="but">
+  <button>保 存</button>
+</view>
 
 </view>
