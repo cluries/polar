@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    one: {
-      v1: "v1"
+    entity: {
+      day: Date.now()
     }
   },
 

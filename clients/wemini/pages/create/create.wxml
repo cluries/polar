@@ -38,21 +38,26 @@
 
 <view class="main">
   <view class="use">
-    <van-icon name="/assets/page/home/happy.png" size="32"></van-icon> 
-    <view class="name">心情</view>
+    <view class="container">
+      <van-icon name="/assets/page/home/happy.png" size="32"></van-icon> 
+      <view class="name">心情</view>
+    </view>
+  </view>
+  <view class="rund">
+  <view class="container"></view>
   </view>
   <view class="createform">
-  <van-cell-group>
-    <van-field size="large" value="{{ username }}" required clearable
-    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/>
-    <van-field size="large" value="{{ username }}" required clearable
-    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/><van-field size="large" value="{{ username }}" required clearable
-    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/><van-field size="large" value="{{ username }}" required clearable
-    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/><van-field size="large" value="{{ username }}" required clearable
-    label="用户名" icon="question-o" border="{{ false }}" placeholder="请输入用户名"/>
-   
+  <van-cell-group border="{{false}}">
+    <van-field size="large" value="{{ entity.day }}" clearable label="日期" placeholder="发生日期"/>
+  
+    <van-field size="large" value="{{ entity.summary }}" clearable label="简述" placeholder="一句话简单的描述"/>
+    <van-field size="large" value="{{ entity.detail }}"  clearable autosize label="详细" type="textarea" 
+    placeholder="如果时间充裕就在这里多啰嗦几句吧" />
   </van-cell-group>
-     
+
+  <van-cell-group border="{{false}}">
+  
+  </van-cell-group>
   </view>
 </view>
  
