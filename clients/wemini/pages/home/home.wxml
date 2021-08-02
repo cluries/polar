@@ -17,7 +17,7 @@
         </view>
       </view>
     </view>
-    <view class="lucky">
+    <view class="lucky" bindtap="GoHoroscope">
       <van-icon name="/assets/page/home/lucky.png" size="28"></van-icon>
       <view class="title">运势</view>
     </view>
@@ -69,19 +69,19 @@
   </view>
   
   <view class="opera">
-    <button class="one" bindtap="createPolar">
+    <button class="one" bindtap="GoCreatePolar">
       <van-icon name="/assets/page/home/happy.png" size="32"></van-icon> <!--心情-->
       <view class="name">心情</view>
     </button>
-    <button class="one" bindtap="createPolar">
+    <button class="one" bindtap="GoCreatePolar">
       <van-icon name="/assets/page/home/events.png" size="32"></van-icon><!--事件-->
       <view class="name">事件</view>
     </button>
-    <button class="one" bindtap="createPolar">
+    <button class="one" bindtap="GoCreatePolar">
       <van-icon name="/assets/page/home/money.png" size="32"></van-icon><!--花费-->
       <view class="name">花费</view>
     </button>
-    <button class="one" bindtap="createPolar">
+    <button class="one" bindtap="GoCreatePolar">
       <van-icon name="/assets/page/home/experience.png" size="32"></van-icon><!--感悟-->
       <view class="name">感悟</view>
     </button>
@@ -93,7 +93,7 @@
   </view>
   
   <view class="main">
-    <button class="create" bindtap="createPolar">
+    <button class="create" bindtap="GoCreatePolar">
       <van-icon name="plus" color="#FFF" size="24px"/>
     </button>
     <view class="steps">

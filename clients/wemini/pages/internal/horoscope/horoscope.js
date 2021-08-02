@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/internal/horoscope/horoscope.js
 Page({
 
   /**
@@ -62,19 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  mixins: [],
-
-  //start
-  GoCreatePolar: function(event){
-      wx.navigateTo({
-        url: '/pages/create/create',
-      })
-  },
-  GoHoroscope: function(ev) {
-    wx.navigateTo({
-      url: '/pages/internal/horoscope/horoscope',
-    })
   }
 })
