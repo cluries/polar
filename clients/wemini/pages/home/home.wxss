@@ -79,13 +79,10 @@
   align-items: center;
   text-align: center;
   height: 48px;
+  /* border: #ffb059 1px solid; */
  }
 
- .header .headertop .lucky ::after {
-  border: none;
-  outline:none;
-
-}
+ 
 
  .header .headertop .lucky .title {
    flex-basis: 100%;
