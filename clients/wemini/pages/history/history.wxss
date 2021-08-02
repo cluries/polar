@@ -4,7 +4,6 @@
   display: block;
   padding: 0;
   margin: 0;
-  /* background:linear-gradient(45deg, #ffffff 0%, #D1E7FE 100%); */
   background: #D1E7FE;
   min-height: 960px;
 }
@@ -12,15 +11,16 @@
 .container .history {
   padding: 10px;
   margin: 0;
- }
+}
 
 .container .history .group {
-  /* background:linear-gradient(45deg, #ffffff 0%, #D1E7FE 100%); */
   background-color: #ffffff;
   margin: 10px 0;
   border: #D1E7FE 1px solid;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 5px 5px 20px  #BAF1E3;
+  color: #070726;
 }
 
 
@@ -36,13 +36,51 @@
 }
 
 .container .history .group .content {
-  /* min-height: 96px; */
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 14px;  
+  flex-wrap: wrap;
+}
+
+.container .history .group .content > view {
+  padding: 6px;
+
 }
  
 .container .history .group .content .loc {
-  background-color: #cccccc;
+  flex-basis: 100%;
+  border-bottom: #D1E7FE 1px solid;
 }
+
+ 
+.container .history .group .content  .title {
+  font-weight: bold;
+}
+
+/* .container .history .group .content .loc .weather{
+
+}
+
+.container .history .group .content .loc .pm{
+  
+} */
+
+.container .history .group .content .money {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+
+.container .history .group .content .money > view {
+  margin-right: 10px;
+}
+
+
+.container .history .group .content .mood {
+  text-align: right;
+}
+
+ 
