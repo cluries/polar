@@ -1,4 +1,7 @@
 {
   "navigationBarTitleText": "曾经",
-  "usingComponents": {}
+  "usingComponents": {},
+  "window": {
+    "backgroundColor": "#D1E7FE"
+  }
 }

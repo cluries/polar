@@ -1,5 +1,25 @@
 <!--pages/history/history.wxml-->
 <view class="container">
+<view class="history">
+  <view class="group">
+    <view class="meta">
+      2021年12月23日
+    </view>
+    <view class="content">
+      
+    </view>
+    
+  </view>
 
+  <view class="group">
+    <view class="meta">
+      2021年12月23日
+    </view>
+    <view class="content">
+      
+    </view>
+    
+  </view>
+</view>
 
 </view>
