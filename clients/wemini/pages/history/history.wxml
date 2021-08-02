@@ -4,9 +4,17 @@
   <view class="group">
     <view class="meta">
       2021年12月23日
+
+      <view class="recordsnumber">20条记录</view>
     </view>
     <view class="content">
-      
+      <view class="loc">
+        <view class="city">重庆</view>
+        <view class="weather">雷雨转晴,23度</view>
+        <view class="pm">空气质量：优秀</view>
+      </view>
+      <view class="money">支出500元，收入2000元</view>
+      <view class="mood">整体心情：愉快</view>
     </view>
     
   </view>

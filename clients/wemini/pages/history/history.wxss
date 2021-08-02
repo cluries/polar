@@ -30,7 +30,19 @@
   font-weight: bold;
 }
 
+.container .history .group .meta .recordsnumber {
+  float: right;
+  font-weight: normal;
+}
+
 .container .history .group .content {
-  min-height: 96px;
+  /* min-height: 96px; */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
  
+.container .history .group .content .loc {
+  background-color: #cccccc;
+}
