@@ -27,14 +27,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: flex-start;
+  align-items: center;
 }
 
 
 .header  .headertop .profile {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items:flex-start;
   justify-content: flex-start;
+  align-content: flex-start;
+  flex-basis: 80%;
 }
 
 .header  .headertop .profile .avatar {
@@ -45,13 +48,14 @@
   margin: 0 0 0 15px;
   border-radius: 50%;
   border: #C4D0FB 3px solid;
+  flex-shrink: 0;
 }
 
 .header  .headertop .profile .info {
   text-align: left;
   margin-left: 10px;
-  flex-grow: 1;
-  flex-shrink: 0;
+  /* flex-grow: 1; */
+  /* flex-shrink: 0; */
 }
 
 .header .headertop .profile .info .name {
@@ -70,7 +74,8 @@
 
 .header .headertop .lucky{
   font-size: 14px;
-  margin: 15px ;
+  padding: 3px;
+  margin-right: 10px ;
   margin-left: 0;
   display: flex;
   flex-wrap: wrap;
@@ -78,15 +83,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 48px;
-  /* border: #ffb059 1px solid; */
+  border: #C4D0FB 1px solid;
+  border-radius: 10px;
+  flex-shrink: 0;
+  flex-grow: 0;
  }
-
  
-
  .header .headertop .lucky .title {
    flex-basis: 100%;
-   /* background-color: #cccccc; */
    padding: 0;
    margin: 0;
  }
