@@ -20,34 +20,38 @@
     </view>
   </view>
 
-  <view class="star">
-    <view class="t">
+  <view class="constellation">
+    <view class="name">
       金牛座
     </view>
     <view class="value">
   
       今日幸运值： 90
       <view class="text">
-        有些思考的小漩涡，可能让你忽然的放空，生活中许多的细节让你感触良多，五味杂陈，
-常常有时候就慢动作定格，想法在某处冻结停留，陷入一阵自我对话的沉思之中，这个时候你不喜欢被打扰
-或询问，也不想让某些想法曝光，个性变得有些隐晦。
+        异性缘佳，吃喝玩乐的机会多。
       </view>
     </view>
     <view class="detail">
-      <view class="item">
-      爱情：90
-      <view class="text">
-        恋情：之前积累的想法和感受，本周选择说出来。沟通机会增多，亦有可能以争吵的方式出现。
-单身的，在聚会闲谈中可望获得更多缘分。
-      </view>
-      </view>
-      <view class="item">
-        工作：85
-        <view class="text">
-        恋情：之前积累的想法和感受，本周选择说出来。沟通机会增多，亦有可能以争吵的方式出现。
-单身的，在聚会闲谈中可望获得更多缘分。
-      </view>
-      </view>
+      <van-tabs border="{{true}}"  sticky >
+        <van-tab title="爱情">
+          <view class="sio">
+            <view class="star">⭐⭐⭐⭐⭐</view>
+            会有异性主动靠近，让你有些受宠若惊。单身者想恋爱，但仍停留在观望阶段。
+          </view>
+        </van-tab>
+        <van-tab title="事业">
+          <view class="sio">
+            <view class="star">⭐⭐⭐⭐⭐</view>
+            只要用心的对待工作，注意和拍档之间的交流与合作，手头的任务会很顺利的进行。
+          </view>
+        </van-tab>
+        <van-tab title="财富">
+          <view class="sio">
+            <view class="star">⭐⭐⭐⭐⭐</view>
+            财务是今日的生活重心，虽然运气有点不稳定，外力干扰多了点，可是只要保守谨慎些，不会有太大的问题。
+          </view>
+        </van-tab>
+      </van-tabs>
     </view>
   </view>
 </view>
