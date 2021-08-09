@@ -1,2 +1,53 @@
 <!--pages/internal/horoscope/horoscope.wxml-->
-<text>pages/internal/horoscope/horoscope.wxml</text>
+
+<view class="container">
+  <view class="summary">
+    <view class="date">
+      <view class="year">
+        <view class="chinese">辛丑年七月初二</view>
+        <view class="number">2021年</view>
+        <view class="number">08月</view>
+        <view class="number">21日</view>
+      </view>
+    </view>
+    <view class="avatar" style="left: {{avatarLeft}}; top:{{avatarTop}}">
+        <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="luck">
+      <view class="score">92</view>
+      <view class="text">宜：开工、直播</view>
+      <view class="text">忌：上学、打屁</view>
+    </view>
+  </view>
+
+  <view class="star">
+    <view class="t">
+      金牛座
+    </view>
+    <view class="value">
+  
+      今日幸运值： 90
+      <view class="text">
+        有些思考的小漩涡，可能让你忽然的放空，生活中许多的细节让你感触良多，五味杂陈，
+常常有时候就慢动作定格，想法在某处冻结停留，陷入一阵自我对话的沉思之中，这个时候你不喜欢被打扰
+或询问，也不想让某些想法曝光，个性变得有些隐晦。
+      </view>
+    </view>
+    <view class="detail">
+      <view class="item">
+      爱情：90
+      <view class="text">
+        恋情：之前积累的想法和感受，本周选择说出来。沟通机会增多，亦有可能以争吵的方式出现。
+单身的，在聚会闲谈中可望获得更多缘分。
+      </view>
+      </view>
+      <view class="item">
+        工作：85
+        <view class="text">
+        恋情：之前积累的想法和感受，本周选择说出来。沟通机会增多，亦有可能以争吵的方式出现。
+单身的，在聚会闲谈中可望获得更多缘分。
+      </view>
+      </view>
+    </view>
+  </view>
+</view>

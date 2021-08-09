@@ -1,1 +1,112 @@
 /* pages/internal/horoscope/horoscope.wxss */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  background-color: #D1E7FE;  
+}
+
+.container .summary {
+  flex-basis: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: no-wrap;
+  background: #fff;
+}
+
+.container .summary .date {
+  flex-basis: 50%;   
+  border-right: #D1E7FE 1px solid;
+}
+
+.container .summary .date  .year {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.container .summary .date  .year .chinese {
+  font-size: 12px;
+  word-wrap: break-word;
+  width: 20px;
+  border: #222 1px solid;
+  text-align: center;
+  /* writing-mode: vertical-lr; */
+  margin: 0 2px;
+}
+
+.container .summary .date  .year .number {
+  /* writing-mode: vertical-lr; */
+  text-align: center;
+  width: 20px;
+  word-wrap: break-word;
+  border: #222 1px solid;
+  /* padding: 5px 2px; */
+  margin: 0 2px;
+  font-size: 14px;
+}
+.container .summary .avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: #D1E7FE 4px solid;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+}
+.container .summary  .luck {
+  flex-basis: 50%;
+  /* background: #ffffff; */
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.container .summary  .luck  .score {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.container .star {
+  flex-basis: 100%;
+  margin: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.container .star .t {
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .star .value {
+  text-align: center;
+}
+
+.container .star .value .text {
+  font-size: 12px;
+  text-align: left;
+}
+
+.container .star .detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+.container .star .detail .item {
+  flex-basis: 100%;
+  border: #D1E7FE 1px solid;
+  padding: 5px;
+  margin: 5px 0;
+}
