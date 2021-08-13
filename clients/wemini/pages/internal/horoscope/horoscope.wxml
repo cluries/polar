@@ -25,14 +25,13 @@
       金牛座
     </view>
     <view class="value">
-  
       今日幸运值： 90
       <view class="text">
         异性缘佳，吃喝玩乐的机会多。
       </view>
     </view>
     <view class="detail">
-      <van-tabs border="{{true}}"  sticky >
+      <van-tabs border="{{true}}"   >
         <van-tab title="爱情">
           <view class="sio">
             <view class="star">⭐⭐⭐⭐⭐</view>
