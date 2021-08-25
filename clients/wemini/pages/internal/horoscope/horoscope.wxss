@@ -6,7 +6,10 @@
   flex-direction: row;
   padding: 0;
   margin: 0;
-  background-color: #D1E7FE;  
+  background-color: #0f0a26;  
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .container .summary {
@@ -15,12 +18,13 @@
   border-radius: 10px;
   display: flex;
   flex-wrap: no-wrap;
-  background: #fff;
+  background: #442b84;
+  color: #FFF;
 }
 
 .container .summary .date {
   flex-basis: 50%;   
-  border-right: #D1E7FE 1px solid;
+  border-right: #7a57e0 1px solid;
 }
 
 .container .summary .date  .year {
@@ -36,7 +40,7 @@
   font-size: 12px;
   word-wrap: break-word;
   width: 20px;
-  border: #222 1px solid;
+  border: #FFF 1px solid;
   text-align: center;
   /* writing-mode: vertical-lr; */
   margin: 0 2px;
@@ -47,8 +51,7 @@
   text-align: center;
   width: 20px;
   word-wrap: break-word;
-  border: #222 1px solid;
-  /* padding: 5px 2px; */
+  border: #FFF 1px solid;
   margin: 0 2px;
   font-size: 14px;
 }
@@ -56,14 +59,13 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  border: #D1E7FE 4px solid;
+  border: #EEE 4px solid;
   overflow: hidden;
   position: absolute;
   top: 50px;
 }
 .container .summary  .luck {
   flex-basis: 50%;
-  /* background: #ffffff; */
   font-size: 14px;
   font-weight: normal;
   text-align: center;
@@ -78,38 +80,48 @@
 .container .constellation {
   flex-basis: 100%;
   margin: 10px;
-  background: #fff;
   padding: 10px;
   border-radius: 10px;
-
+  background-color: #442b84;
+  font-size: 14px;
+  color:#FFF;
 }
 
 .container .constellation .name {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .container .constellation .value {
   text-align: left;
-}
-
-.container .constellation .value .text {
-  text-align: left;
-  padding: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #7a57e0;
+  font-weight: bold;
 }
 
 .container .constellation .detail {
   flex-basis: 100%;
   margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 5px;
 }
  
-
-.container .constellation .detail .sio {
-  padding:10px 5px;
+.container .constellation .detail .item {
+  flex-basis: 45%;
+  padding: 5px;
+  font-size: 14px; 
 }
 
-.container .constellation .detail .sio .star {
-  text-align: center;
-  padding: 0 0 10px 0;
+.container .constellation .desc {
+  background: #321d64;
+  border-radius: 5px;
+  margin-top:10px ;
+  padding: 5px;
+  line-height: 25px;
 }

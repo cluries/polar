@@ -1,6 +1,6 @@
 <!--pages/internal/horoscope/horoscope.wxml-->
 
-<view class="container">
+<view class="container" style="min-height: {{containerMinHeight}};">
   <view class="summary">
     <view class="date">
       <view class="year">
@@ -22,35 +22,33 @@
 
   <view class="constellation">
     <view class="name">
+      <!-- <van-icon name="/assets/horoscope/taurus.png" size="48"></van-icon> -->
       金牛座
     </view>
     <view class="value">
-      今日幸运值： 90
-      <view class="text">
-        异性缘佳，吃喝玩乐的机会多。
-      </view>
+      2021-02-04 🌟🌟🌟🌟
     </view>
     <view class="detail">
-      <van-tabs border="{{true}}"   >
-        <van-tab title="爱情">
-          <view class="sio">
-            <view class="star">⭐⭐⭐⭐⭐</view>
-            会有异性主动靠近，让你有些受宠若惊。单身者想恋爱，但仍停留在观望阶段。
-          </view>
-        </van-tab>
-        <van-tab title="事业">
-          <view class="sio">
-            <view class="star">⭐⭐⭐⭐⭐</view>
-            只要用心的对待工作，注意和拍档之间的交流与合作，手头的任务会很顺利的进行。
-          </view>
-        </van-tab>
-        <van-tab title="财富">
-          <view class="sio">
-            <view class="star">⭐⭐⭐⭐⭐</view>
-            财务是今日的生活重心，虽然运气有点不稳定，外力干扰多了点，可是只要保守谨慎些，不会有太大的问题。
-          </view>
-        </van-tab>
-      </van-tabs>
+      <view class="item">
+      爱情：💓💓💓💓💓
+      </view>
+
+      <view class="item">
+      金钱：💰💰💰💰💰
+      </view>
+
+      <view class="item">
+      事业：💼💼💼💼💼
+      </view>
+
+      <view class="item">
+      健康：🏃‍♀️🏃‍♀️🏃‍♀️🏃‍♀️
+      </view>
+    </view>
+    <view class="desc">
+      有些思考的小漩涡，可能让你忽然的放空，生活中许多的细节让你感触良多，五味杂陈，
+常常有时候就慢动作定格，想法在某处冻结停留，陷入一阵自我对话的沉思之中，这个时候你不喜欢被打扰
+或询问，也不想让某些想法曝光，个性变得有些隐晦
     </view>
   </view>
 </view>

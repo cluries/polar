@@ -25,8 +25,10 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    let sysInfo = wx.getSystemInfoSync()
     this.setData({
-      avatarLeft: (wx.getSystemInfoSync().windowWidth-64-4-4)/2 + 'px'
+      avatarLeft: (sysInfo.windowWidth-64-4-4)/2 + 'px',
+      containerMinHeight:(sysInfo.windowHeight) + 'px',
     })
   },
 

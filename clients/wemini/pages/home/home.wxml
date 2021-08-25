@@ -83,7 +83,7 @@
     </button>
     <button class="one" bindtap="GoCreatePolar">
       <van-icon name="/assets/page/home/experience.png" size="32"></van-icon><!--感悟-->
-      <view class="name">感悟</view>
+      <view class="name">想法</view>
     </button>
   </view>
   <view class="rund">

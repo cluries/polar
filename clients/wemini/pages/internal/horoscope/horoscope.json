@@ -1,3 +1,7 @@
 {
+  "navigationBarBackgroundColor": "#0f0a26",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "运势",
+  "backgroundColor": "#0f0a26",
   "usingComponents": {}
 }
