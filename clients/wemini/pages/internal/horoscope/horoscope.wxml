@@ -22,7 +22,6 @@
 
   <view class="constellation">
     <view class="name">
-      <!-- <van-icon name="/assets/horoscope/taurus.png" size="48"></van-icon> -->
       金牛座
     </view>
     <view class="value">
@@ -30,19 +29,19 @@
     </view>
     <view class="detail">
       <view class="item">
-      爱情：💓💓💓💓💓
+      爱情：❤️ ❤️ ❤️ ❤️ ❤️
       </view>
 
       <view class="item">
-      金钱：💰💰💰💰💰
+      金钱：💰 💰 💰 💰 💰
       </view>
 
       <view class="item">
-      事业：💼💼💼💼💼
+      事业：💼 💼 💼 💼 💼
       </view>
 
       <view class="item">
-      健康：🏃‍♀️🏃‍♀️🏃‍♀️🏃‍♀️
+      健康：💪 💪 💪 💪
       </view>
     </view>
     <view class="desc">
