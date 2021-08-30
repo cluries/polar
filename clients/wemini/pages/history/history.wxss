@@ -32,7 +32,6 @@
 
 .container .history .group .meta .recordsnumber {
   float: right;
-  font-weight: normal;
 }
 
 .container .history .group .content {
@@ -51,21 +50,27 @@
  
 .container .history .group .content .loc {
   flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   border-bottom: #D1E7FE 1px solid;
 }
 
  
-.container .history .group .content  .title {
+.container .history .group .content .loc  .title {
   font-weight: bold;
+  flex-basis: 100%;
+  margin-bottom: 5px;
 }
 
-/* .container .history .group .content .loc .weather{
-
+.container .history .group .content .loc .weather{
+  flex-basis: 45%;
 }
 
 .container .history .group .content .loc .pm{
-  
-} */
+  flex-basis: 45%;
+  text-align: right;
+} 
 
 .container .history .group .content .money {
   display: flex;
