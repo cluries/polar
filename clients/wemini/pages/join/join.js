@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/join/join.js
 Page({
 
   /**
@@ -12,15 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.login({
-      success (res) {
-        if (res.code) {           
-           
-        } else {
-          console.log('登录失败！' + res.errMsg)
-        }
-      }
-    })
+
   },
 
   /**
@@ -70,19 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  mixins: [],
-
-  //start
-  GoCreatePolar: function(event){
-      wx.navigateTo({
-        url: '/pages/create/create',
-      })
-  },
-  GoHoroscope: function(ev) {
-    wx.navigateTo({
-      url: '/pages/internal/horoscope/horoscope',
-    })
   }
 })

@@ -70,14 +70,14 @@
       <van-tag closeable plain size="large" color="#eecefd">标签</van-tag>
       <van-icon name="plus" size="24"  color="#646566" class="tagadd"/>
     </view>
-    <view class="media">
+    <!-- <view class="media">
       <view class="item"></view>
       <view class="item"></view>
       <view class="item">
         <van-icon name="plus" size="48px"  color="#646566"/>
       </view>
 
-    </view>
+    </view> -->
   </van-cell-group>
   </view>
 </view>
