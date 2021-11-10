@@ -98,7 +98,7 @@
     </button>
     <view class="steps">
       <view class="sectiontitle">
-        <h3>今天</h3>
+        <h3>最近</h3>
       </view>
       <view class="container">
         <view class="one">

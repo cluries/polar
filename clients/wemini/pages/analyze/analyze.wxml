@@ -1,2 +1,4 @@
 <!--pages/analyze/analyze.wxml-->
-<text>pages/analyze/analyze.wxml</text>
+<view class="container"  style="min-height: {{containerMinHeight}};">
+<view class="building">努力建设中,请等待...</view>
+</view>
