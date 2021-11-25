@@ -1,4 +1,6 @@
 // pages/create/create.js
+import datetime from '../../utils/datetime/datetime.js'
+
 Page({
 
   /**
@@ -6,7 +8,7 @@ Page({
    */
   data: {
     entity: {
-      day: Date.now()
+      day: datetime.formatDate(new Date())
     }
   },
 

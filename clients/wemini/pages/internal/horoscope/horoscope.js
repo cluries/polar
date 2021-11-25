@@ -29,7 +29,7 @@ Page({
     this.setData({
       avatarLeft: (sysInfo.windowWidth-64-4-4)/2 + 'px',
       containerMinHeight:(sysInfo.windowHeight) + 'px',
-    })
+    });
   },
 
   /**
